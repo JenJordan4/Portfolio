@@ -14,7 +14,7 @@ const Home = () => {
         <p>
           I am a full-stack web development grad from 
           <a href="https://www.wyncode.co" target="_blank">
-          Wyncode Academy
+           Wyncode Academy
           </a>!
         </p>
         <div>
