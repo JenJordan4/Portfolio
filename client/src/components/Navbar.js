@@ -6,9 +6,13 @@ import { withRouter } from "react-router"
 const Navbar = props => {
   return(
     <nav>
-      <NavLink to="/">Jen Jordan</NavLink>
-      <NavLink className={props.location.pathname === "/About" ? "active" : null} to="/about">About</NavLink>
-      <NavLink className={props.location.pathname === "/Contact" ? "active" : null} to="/contact">Contact</NavLink>
+      <span className="nav-left">
+        <NavLink to="/">Home</NavLink>
+      </span>
+      <span className="nav-right">
+        <NavLink className={props.location.pathname === "/About" ? "active" : null} to="/about">About</NavLink>
+        <NavLink className={props.location.pathname === "/Contact" ? "active" : null} to="/contact">Contact</NavLink>
+      </span>
     </nav>
   )
 }
