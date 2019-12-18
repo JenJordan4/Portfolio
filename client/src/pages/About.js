@@ -9,34 +9,27 @@ const About = () => {
   return (
     <main className="about-main">
       <h1>Hi, I'm Jen Jordan</h1>
-      <a href="https://github.com/JenJordan4" target="_blank" rel="noopener noreferrer">Github</a>
-      <a href="https://www.linkedin.com/in/jenmjordan4/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="#" target="_blank" rel="noopener noreferrer">Resume</a>
       <img id="profile-pic" src={ selfie } alt="This is me!"/>
       <p>Helping others and challenging myself has always been the core values of who I am. 
           These values has brought me everywhere from teaching customers how to use their new 
-          iPhones, insipiring the next generation to love literature, and now as a full-stack web developer.
+          iPhones, to insipiring the next generation to love literature, and now leaving my mark on the world as a full-stack web developer.
       </p>
-        <p>
-          I am a full-stack web development grad from 
-          <a href="https://www.wyncode.co" target="_blank" rel="noopener noreferrer">
-           Wyncode Academy
-          </a>!
+        <p>I am very grateful to <a href="https://www.wyncode.co" target="_blank" rel="noopener noreferrer">Wyncode Academy</a> for giving me the opportunity and inspiration to completely change my life. I love what I do, and I can't wait to take the South Florida tech industry by storm.
         </p>
         <div>
-          <p>Some of my favorite programming languages are:</p>
+          <p>My favorite programming languages include:</p>
           <ul className="language-list">
               <li>
                   <h3>CSS</h3>
-                  <img src={ css } alt="Cascading Style Sheets" className="language-img"/>
+                  <img src={ css } alt="Cascading Style Sheets" className="language-logo" id="css-logo"/>
               </li>
               <li>
                   <h3>JavaScript</h3>
-                  <img src={ js } alt="JavaScript" className="language-img"/>
+                  <img src={ js } alt="JavaScript" className="language-logo"/>
               </li>
               <li>
                   <h3>Ruby</h3>
-                  <img src={ ruby } alt="Ruby" className="language-img"/>
+                  <img src={ ruby } alt="Ruby" className="language-logo"/>
               </li>
           </ul>
         </div>

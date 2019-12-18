@@ -12,11 +12,20 @@ body {
 
 .language-list {
   display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.language-img {
-  width: 20rem;
-  margin: 5rem;
+
+.language-logo {
+  width: 17rem;
+  margin: 3rem;
 }
+
+#css-logo {
+  width: 40%;
+}
+
 
 nav {
   position: fixed;
@@ -27,7 +36,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  background-color: rgba(125, 228, 233, 0.6);
+  background-color:  rgba(125, 228, 233, 0.8);
   z-index: 3;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
@@ -35,7 +44,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #F9F9F9;
   text-decoration: none;
   margin: 0 24px;
 }
@@ -51,19 +60,28 @@ main {
  }
 
  #jen-jordan {
-  font-size: 5em;
   margin: 0;
-
- }
+	display: inline;
+	position: relative;
+	font: 10em Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(12, 209, 220, 0.7); 
+  text-shadow: -10px -5px rgba(237, 127, 247, 0.8);
+}
 
  .home-main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #F9F9F9;
  }
 
  .fab {
   margin: 1.6em;
   font-size: 3em;
+ }
+
+ .social-icons > a {
+   color: #F9F9F9;
  }
