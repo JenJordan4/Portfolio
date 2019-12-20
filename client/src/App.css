@@ -84,7 +84,7 @@ nav a {
   color: rgb(45, 86, 122);
 }
 
-.fab {
+.fab, .fas {
  margin: 0.3em;
  font-size: 3em;
 }
@@ -96,6 +96,10 @@ nav a {
   object-fit: cover;
  }
 
+ .project-thumbnail {
+   width: 25em;
+   margin: 2em;
+ }
 
  /* About */
 

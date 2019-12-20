@@ -1,6 +1,10 @@
 import React from 'react'
 import '../App.css'
 import selfie from "../images/selfie.jpg"
+import portfolio from "../images/portfolio.png"
+import wynstore from "../images/wynstore.png"
+import videojueGO from "../images/videojuego.png"
+import chatroom from "../images/lonliest-chatroom.png"
 
 const Home = () => {
 
@@ -14,10 +18,27 @@ const Home = () => {
         </div>
         <div className="home-projects bkg-div left-div">
           <h2>Here are some of my projects:</h2>
+          <div project-thumbnails>
+            <a href="https://github.com/JenJordan4/portfolio">
+              <img src={ portfolio } className="project-thumbnail" alt="My portfolio site"/>
+            </a>
+            <a href="https://github.com/JenJordan4/Wynstore">
+              <img src={ wynstore } className="project-thumbnail" alt="Wyncode final project"/>
+            </a>
+            <a href="https://github.com/JenJordan4/videojueGO">
+              <img src={ videojueGO } className="project-thumbnail" alt="Wyncode midterm project"/>
+            </a>
+            <a href="https://github.com/JenJordan4/Chatroom">
+              <img src={ chatroom } className="project-thumbnail" alt="Wyncode weekend project"/>
+            </a>
+          </div>
         </div>
         <div className="home-contact bkg-div right-div">
           <h2>Let's keep in touch!</h2>
           <div className="social-icons">
+            <a href="mailto:jenmjordan4@gmail.com">
+              <i class="fas fa-envelope-open-text"></i>
+            </a>
             <a href="https://www.linkedin.com/in/jenmjordan4/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
