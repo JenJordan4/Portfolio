@@ -5,7 +5,7 @@ const Contact = () => {
   return (
       <main className="about-main">
         <div className="bkg-div center-div">
-          <p>Send me an email!</p>
+          <h2>Send me an email!</h2>
         </div>
       </main>
     )

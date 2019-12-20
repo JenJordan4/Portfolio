@@ -1,15 +1,12 @@
 import React from 'react'
 import '../App.css'
 import group from "../images/final-proj-group.jpg"
-import css from "../images/css.svg"
-import js from "../images/js.png"
-import ruby from "../images/ruby.png"
 
 const About = () => {
   return (
     <main className="about-main">
       <div className="bkg-div center-div">
-        <h1>Hi, I'm Jen Jordan</h1>
+        <h1>More About Me</h1>
         <img src={ group } alt="I'm on the left!" id="about-pic" />
         <p>Helping others and challenging myself has always been the core values of who I am. 
             These values has brought me everywhere from teaching customers how to use their new 
@@ -18,21 +15,28 @@ const About = () => {
           <p>I am very grateful to <a href="https://www.wyncode.co" target="_blank" rel="noopener noreferrer">Wyncode Academy</a> for giving me the opportunity and inspiration to completely change my life. I love what I do, and I can't wait to take the South Florida tech industry by storm.
           </p>
           <div>
-            <p>My favorite programming languages include:</p>
-            <ul className="language-list">
-                <li>
-                    <h3>CSS</h3>
-                    <img src={ css } alt="Cascading Style Sheets" className="language-logo" id="css-logo"/>
-                </li>
-                <li>
-                    <h3>JavaScript</h3>
-                    <img src={ js } alt="JavaScript" className="language-logo"/>
-                </li>
-                <li>
-                    <h3>Ruby</h3>
-                    <img src={ ruby } alt="Ruby" className="language-logo"/>
-                </li>
-            </ul>
+            <h2>My tech skills include:</h2>
+            <tr>
+              <td>Command Line</td>
+              <td>HTML</td>
+              <td>CSS</td>
+              <td>JavaScript</td>
+              <td>Ruby</td>
+            </tr>
+            <tr>
+              <td>Git</td>
+              <td>Github</td>
+              <td>Node JS</td>
+              <td>React JS</td>
+              <td>Express JS</td>
+            </tr>
+            <tr>
+              <td>JSON</td>
+              <td>SQL</td>
+              <td>Heroku</td>
+              <td>Axios</td>
+              <td>Agile Methodology</td>
+            </tr>
           </div>
       </div>
     </main>
