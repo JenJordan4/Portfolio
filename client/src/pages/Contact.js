@@ -4,7 +4,9 @@ import '../App.css'
 const Contact = () => {
   return (
       <main className="about-main">
-        <p>Send me an email!</p>
+        <div className="bkg-div center-div">
+          <p>Send me an email!</p>
+        </div>
       </main>
     )
   }

@@ -7,7 +7,7 @@ const Navbar = props => {
   return(
     <nav>
       <span className="nav-left">
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/">Jen Jordan</NavLink>
       </span>
       <span className="nav-right">
         <NavLink className={props.location.pathname === "/About" ? "active" : null} to="/about">About</NavLink>
