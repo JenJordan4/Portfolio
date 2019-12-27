@@ -1,3 +1,6 @@
 {
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react-moment": "^0.9.7"
+  }
 }
