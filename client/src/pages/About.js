@@ -31,7 +31,7 @@ const About = () => {
               <td>SQL</td>
             </tr>
             <tr>
-              <td>Object-Oriented Programming</td>
+              <td>Invision</td>
               <td>Command Line</td>
               <td>Git/GitHub</td>
               <td>Axios</td>
@@ -39,7 +39,7 @@ const About = () => {
             </tr>
             <tr>
               <td>Test-Driven Development</td>
-              <td>Invision</td>
+              <td>Object-Oriented Programming</td>
               <td>Heroku</td>
               <td>Microsoft Office</td>
               <td>Public Speaking</td>
