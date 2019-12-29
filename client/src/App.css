@@ -4,16 +4,18 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%233a1066' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%231d7bad' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231c77ad' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%231e73ad' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23226fad' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23276bac' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%232e66ab' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%233561aa' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%233c5ca8' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%234357a5' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%234b52a2' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23514c9e' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2358469a' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%235f4095' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2365398f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%236a3189' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%236f2883' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23741e7c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23780f74' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
+  position: relative;
+  min-height: 100vh;
   }
 
 main {
   margin-top: 80px;
   font-family: 'Biryani', sans-serif;
-  height: 80vh;
   color: rgb(45, 86, 122);
   letter-spacing: -0.9px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 4.5rem;
 }
 
 a {
@@ -200,7 +202,7 @@ nav a {
 }
 
 .projects-main {
-  margin: 80px 40px 40px 40px ;
+  margin: 80px 40px 0 40px ;
 }
 
 #repos {
@@ -229,4 +231,32 @@ nav a {
 
 .github-card > p {
   color: rgb(45, 86, 122)
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 4.5rem; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgba(55,93,167, 0.8);
+  z-index: 3;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #F9F9F9; 
+}
+
+.footer-links > a, #footer-resume{
+  color: #F9F9F9;
+  text-decoration: none;
+}
+
+
+footer > p {
+  margin: 0;
 }

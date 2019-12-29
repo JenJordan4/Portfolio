@@ -16,7 +16,7 @@ const Home = () => {
           <img id="profile-pic" src={ selfie } alt="This is me!"/>
           <div className="profile-info">          
             <h2>I'm a full-stack web developer and graduate of Wyncode Academy.</h2>
-            <a href={resume} target="_blank" download>
+            <a href={resume} target="_blank" rel="noopener noreferrer" download>
               <button className="resume-button">Download Resume</button><br />
             </a>
             <p><a href="/about">More about me.</a></p>

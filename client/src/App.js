@@ -2,6 +2,7 @@ import React from 'react'
 import  { BrowserRouter, Switch, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
@@ -20,6 +21,7 @@ class App extends React.Component{
           <Route exact path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </BrowserRouter>
     )
   }
