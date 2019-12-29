@@ -24,6 +24,7 @@ class Projects extends React.Component {
       return (
           <main className="projects-main">
             <div className="head-container bkg-div">
+              <i className="fab fa-github"></i>
               <a
                 id="github-link"
                 href={github.html_url}

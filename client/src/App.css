@@ -40,16 +40,6 @@ h1 {
   border-radius: 25px;
 }
 
-.home-about {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.profile-info {
-  padding: 0 2em;
-}
-
 
 /* nav */
 
@@ -110,9 +100,24 @@ nav a {
   object-fit: cover;
  }
 
+ .home-about {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+ 
+ .profile-info {
+   padding: 0 2em;
+ }
+
  .project-thumbnail {
    width: 25em;
    margin: 2em;
+ }
+
+ .project-thumbnail:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
  }
 
  .resume-button {
@@ -202,6 +207,10 @@ nav a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#github-link > h1 {
+  margin: 0;
 }
 
 .github-card {
