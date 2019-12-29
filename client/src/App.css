@@ -15,7 +15,7 @@ main {
   letter-spacing: -0.9px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 4.5rem;
+  padding-bottom: 6.5rem;
 }
 
 a {
@@ -123,11 +123,11 @@ nav a {
  }
 
  .resume-button {
-  font-family: 'Biryani', sans-serif;
+  font-family: '', sans-serif;
   font-weight: 700;
   letter-spacing: -0.9px;
-  font-size: 1em;
-  background-color: rgb(45, 86, 122);
+  font-size: 1.1em;
+  background-color: rgb(55, 93, 167);
   color: rgb(249, 249, 249);
   border-width: 0;
   padding: 8px 12px;
@@ -238,17 +238,16 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 4.5rem; 
+  height: 5rem; 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color:  rgba(55,93,167, 0.8);
+  background-color:  rgba(35, 10, 63, 0.8);
   z-index: 3;
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
-  font-size: 1.2rem;
-  color: #F9F9F9; 
+  color: #F9F9F9;
 }
 
 .footer-links > a, #footer-resume{
