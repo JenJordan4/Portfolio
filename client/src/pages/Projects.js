@@ -32,7 +32,7 @@ class Projects extends React.Component {
               >
                 <h1>{loading ? "Loading" : github.login}</h1>
               </a>
-              <h2>{loading ? "Fetching repos . . ." : github.bio}</h2>
+              <p>{loading ? "Fetching repos . . ." : github.bio}</p>
             </div>
             <div className="github-cards-div">
                 <div id="repos">
@@ -44,7 +44,7 @@ class Projects extends React.Component {
                       key={repo.id}
                     >
                       <div className="github-card">
-                        <h4>{repo.name}</h4>
+                        <h3>{repo.name}</h3>
                         <p>Language: {repo.language}</p>
                         <p>{repo.description}</p>
                       </div>

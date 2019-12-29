@@ -1,5 +1,6 @@
-import React from 'react'
-import '../App.css'
+import React from "react"
+import "../App.css"
+import resume from "../assets/Jennifer-Jordan-Resume.pdf"
 import selfie from "../images/selfie.jpg"
 import portfolio from "../images/portfolio.png"
 import wynstore from "../images/wynstore.png"
@@ -12,25 +13,33 @@ const Home = () => {
     <>
       <main className="home-main">
         <div className="home-about bkg-div right-div">
-          <h1>Hi, I'm Jen Jordan!</h1>
           <img id="profile-pic" src={ selfie } alt="This is me!"/>
-          <p>I'm a full-stack web developer and recent graduate of Wyncode Academy.</p>
+          <div className="profile-info">          
+            <h2>I'm a full-stack web developer and graduate of Wyncode Academy.</h2>
+            <a href={resume} target="_blank" download>
+              <button className="resume-button">Download Resume</button><br />
+            </a>
+            <p><a href="/about">More about me.</a></p>
+          </div>
         </div>
         <div className="home-projects bkg-div left-div">
-          <h2>Here are some of my projects:</h2>
+          <h2>Recent Projects:</h2>
           <div project-thumbnails>
-            <a href="https://github.com/JenJordan4/portfolio">
-              <img src={ portfolio } className="project-thumbnail" alt="My portfolio site"/>
-            </a>
             <a href="https://github.com/JenJordan4/Wynstore">
               <img src={ wynstore } className="project-thumbnail" alt="Wyncode final project"/>
             </a>
             <a href="https://github.com/JenJordan4/videojueGO">
               <img src={ videojueGO } className="project-thumbnail" alt="Wyncode midterm project"/>
-            </a>
+            </a> 
             <a href="https://github.com/JenJordan4/Chatroom">
               <img src={ chatroom } className="project-thumbnail" alt="Wyncode weekend project"/>
             </a>
+            <a href="https://github.com/JenJordan4/Portfolio">
+              <img src={ portfolio } className="project-thumbnail" alt="My portfolio site"/>
+            </a>
+            <p>
+              <a href="/projects">More of my projects list.</a>
+            </p>
           </div>
         </div>
         <div className="home-contact bkg-div right-div">
