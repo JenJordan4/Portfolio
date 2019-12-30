@@ -2,7 +2,7 @@ import React from "react"
 import "../App.css"
 import resume from "../assets/Jennifer-Jordan-Resume.pdf"
 import selfie from "../images/selfie.jpg"
-import portfolio from "../images/portfolio.png"
+import museum from "../images/museum-of-candy.png"
 import wynstore from "../images/wynstore.png"
 import videojueGO from "../images/videojuego.png"
 import chatroom from "../images/lonliest-chatroom.png"
@@ -34,8 +34,8 @@ const Home = () => {
             <a href="https://github.com/JenJordan4/Chatroom">
               <img src={ chatroom } className="project-thumbnail" alt="Wyncode weekend project"/>
             </a>
-            <a href="https://github.com/JenJordan4/Portfolio">
-              <img src={ portfolio } className="project-thumbnail" alt="My portfolio site"/>
+            <a href="https://github.com/JenJordan4/MuseumOfCandy">
+              <img src={ museum } className="project-thumbnail" alt="My portfolio site"/>
             </a>
             <p>
               <a href="/projects">More of my projects list.</a>
