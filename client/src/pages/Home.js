@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from 'react-router-dom'
 import "../App.css"
 import resume from "../assets/Jennifer-Jordan-Resume.pdf"
 import selfie from "../images/selfie.jpg"
@@ -19,7 +20,7 @@ const Home = () => {
             <a href={resume} target="_blank" rel="noopener noreferrer" download>
               <button className="resume-button">Download Resume</button><br />
             </a>
-            <p><a href="/about">More about me.</a></p>
+            <p><Link to="/about">More about me.</Link></p>
           </div>
         </div>
         <div className="home-projects bkg-div left-div">
@@ -38,7 +39,7 @@ const Home = () => {
               <img src={ museum } className="project-thumbnail" alt="My portfolio site"/>
             </a>
             <p>
-              <a href="/projects">More of my projects list.</a>
+            <Link to="/projects">More of my projects list.</Link>
             </p>
           </div>
         </div>
