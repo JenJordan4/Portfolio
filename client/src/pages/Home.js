@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div className="home-projects bkg-div left-div">
           <h2>Recent Projects:</h2>
-          <div project-thumbnails>
+          <div className="project-thumbnails">
             <a href="https://github.com/JenJordan4/Wynstore">
               <img src={ wynstore } className="project-thumbnail" alt="Wyncode final project"/>
             </a>
@@ -38,10 +38,10 @@ const Home = () => {
             <a href="https://github.com/JenJordan4/MuseumOfCandy">
               <img src={ museum } className="project-thumbnail" alt="My portfolio site"/>
             </a>
-            <p>
-            <Link to="/projects">More of my projects list.</Link>
-            </p>
           </div>
+          <p>
+            <Link to="/projects">More of my projects list.</Link>
+          </p>
         </div>
         <div className="home-contact bkg-div right-div">
           <h2>Let's keep in touch!</h2>
@@ -61,10 +61,7 @@ const Home = () => {
           </div>
         </div>
       </main>
- {/*       
-        <h1 id="jen-jordan">Jen Jordan</h1>
-        <h2>Full Stack Web Developer</h2>
-        </div> */}
+
     </>
   )
 }
